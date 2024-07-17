@@ -1,6 +1,3 @@
-Certainly! Here's a slightly more detailed version of the README without sections on "License" and "Contributing":
-
-```markdown
 # PL/SQL Project
 
 ## Overview
@@ -16,14 +13,10 @@ This project provides a collection of PL/SQL scripts designed to facilitate vari
 To use these scripts, ensure you have access to a SQL database and a client that can run PL/SQL. Import the scripts into your SQL client.
 
 ## Usage
-To execute a script, connect to your database through your SQL client and run:
-```
-sqlplus username/password@database @script_name.sql
-```
+To execute a script, connect to your database through your SQL client and run: sqlplus username/password@database @script_name.sql
+
 This command will execute the script and apply its operations to the database. Adjust the command based on your SQL client if necessary.
 
 ## System Requirements
 - Oracle SQL Developer or similar SQL client that supports PL/SQL
 - Access to an Oracle Database where you can execute these scripts
-```
-
